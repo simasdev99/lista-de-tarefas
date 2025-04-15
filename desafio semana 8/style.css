@@ -97,17 +97,12 @@ header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fff;
-  flex: 1;
-  flex-wrap: wrap;
   word-break: break-word;
   overflow-wrap: break-word;
 }
 
 .tarefa label span {
   line-height: 1.4;
-  word-break: break-word;
-  overflow-wrap: break-word;
 }
 
 .tarefa label.checked {
@@ -118,6 +113,7 @@ header {
 .tarefa input[type="checkbox"] {
   accent-color: white;
   margin-top: 0.2rem;
+
 }
 
 .icons {
